@@ -1,10 +1,9 @@
 Summary:	a diff front-end program using GTK+(GNOME)
 Name:		gtkdiff
-Version:	1.5.2
+Version:	1.6.0
 Release:	1
 License:	GPL
-Group:		X11/Utilities
-Group(pl):	X11/Narzêdzia
+Group:		X11/Applications
 Source0:	http://www.ainet.or.jp/~inoue/software/gtkdiff/%{name}-%{version}.tar.gz
 URL:		http://www.ainet.or.jp/~inoue/software/gtkdiff/index-e.html
 BuildRequires:	gettext-devel
@@ -27,7 +26,6 @@ are following:
 
 %build
 gettextize --copy --force
-LDFLAGS="-s"; export LDFLAGS
 %configure 
 %{__make}
 
