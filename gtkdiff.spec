@@ -1,5 +1,5 @@
-Summary:	a diff front-end program using GTK+(GNOME)
-Summary(pl):	Frontend na program diff pod GTK+(GNOME)
+Summary:	A diff front-end program using GTK+(GNOME)
+Summary(pl):	Nak³adka na program diff pod GTK+(GNOME)
 Name:		gtkdiff
 Version:	1.8.0
 Release:	2
@@ -24,7 +24,7 @@ are following:
 - Easy navigation across differences.
 
 %description -l pl
-gtkdiff jest frontendem do programu diff u¿ywaj±cym GTK+ i GNOME.
+gtkdiff jest Nak³adk± na program diff u¿ywaj±c± GTK+ i GNOME.
 Niektóre jego cechy to:
 - dwa tryby ogl±dania - jedno- i dwupanelowy
 - obs³uga diff dla katalogów
