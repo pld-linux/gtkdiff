@@ -14,8 +14,6 @@ BuildRequires:	gtk+-devel >= 1.2.0
 BuildRequires:	gnome-libs-devel >= 1.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 gtkdiff is a diff front-end program using GTK+(GNOME). Its features
