@@ -1,7 +1,8 @@
 Summary:	a diff front-end program using GTK+(GNOME)
+Summary(pl):	Frontend na program diff pod GTK+(GNOME)
 Name:		gtkdiff
 Version:	1.7.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Group(de):	X11/Applikationen
