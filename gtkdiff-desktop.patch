@@ -1,8 +1,17 @@
 diff -urN gtkdiff-1.8.0.orig/gtkdiff.desktop gtkdiff-1.8.0/gtkdiff.desktop
 --- gtkdiff-1.8.0/gtkdiff.desktop	2000-03-24 03:40:45.000000000 +0100
 +++ gtkdiff-1.8.0.orig/gtkdiff.desktop	2004-07-04 14:39:00.236798296 +0200
-@@ -7,5 +7,6 @@
- Comment[tr]=Gnome diff uygulamasý
+@@ -1,11 +1,14 @@
+ [Desktop Entry]
++Encoding=UTF-8
+ Name=gtkdiff
+ Name[ja]=gtkdiff
+ Name[tr]=gtkdiff
+ Comment=Graphical diff
+ Comment[ja]=¥°¥é¥Õ¥£¥«¥ëdiff
+-Comment[tr]=Gnome diff uygulamasý
++Comment[pl]=Graficzny diff dla GNOME
++Comment[tr]=GNOME diff uygulamasý
  Exec=gtkdiff
  Icon=
 -Terminal=0
