@@ -1,14 +1,17 @@
 Summary:	a diff front-end program using GTK+(GNOME)
 Summary(pl):	Frontend na program diff pod GTK+(GNOME)
 Name:		gtkdiff
-Version:	1.7.0
-Release:	2
+Version:	1.8.0
+Release:	1
 License:	GPL
 Group:		X11/Applications
 Group(de):	X11/Applikationen
 Group(pl):	X11/Aplikacje
 Source0:	http://www.ainet.or.jp/~inoue/software/gtkdiff/%{name}-%{version}.tar.gz
+Patch0:		%{name}-use_AM_GNU_GETTEXT.patch
 URL:		http://www.ainet.or.jp/~inoue/software/gtkdiff/index-e.html
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+-devel >= 1.2.0
 BuildRequires:	gnome-libs-devel >= 1.0.0
@@ -26,9 +29,13 @@ are following:
 
 %prep
 %setup -q
+%patch -p1
 
 %build
 gettextize --copy --force
+aclocal -I macros
+autoconf
+automake -a -c
 %configure 
 %{__make}
 
