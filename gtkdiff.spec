@@ -1,6 +1,6 @@
 Summary:	a diff front-end program using GTK+(GNOME)
 Name:		gtkdiff
-Version:	1.5.1
+Version:	1.5.2
 Release:	1
 License:	GPL
 Group:		X11/Utilities
