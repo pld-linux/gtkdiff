@@ -5,8 +5,8 @@ Version:	1.8.0
 Release:	2
 License:	GPL
 Group:		X11/Applications
-Source0:	http://www.ainet.or.jp/~inoue/software/gtkdiff/%{name}-%{version}.tar.gz
-URL:		http://www.ainet.or.jp/~inoue/software/gtkdiff/index-e.html
+Source0:	http://home.catv.ne.jp/pp/ginoue/software/gtkdiff/%{name}-%{version}.tar.gz
+URL:		http://home.catv.ne.jp/pp/ginoue/software/gtkdiff/index-e.html
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
