@@ -1,9 +1,11 @@
 Summary:	a diff front-end program using GTK+(GNOME)
 Name:		gtkdiff
 Version:	1.6.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
+Group(de):	X11/Applikationen
+Group(pl):	X11/Aplikacje
 Source0:	http://www.ainet.or.jp/~inoue/software/gtkdiff/%{name}-%{version}.tar.gz
 URL:		http://www.ainet.or.jp/~inoue/software/gtkdiff/index-e.html
 BuildRequires:	gettext-devel
@@ -37,8 +39,7 @@ rm -rf $RPM_BUILD_ROOT
 
 install gtkdiffrc $RPM_BUILD_ROOT%{_datadir}/%{name}/
 
-gzip -9nf AUTHORS ChangeLog NEWS README TODO \
-	$RPM_BUILD_ROOT%{_mandir}/man1/*
+gzip -9nf AUTHORS ChangeLog NEWS README TODO
 
 %find_lang %{name}
 
