@@ -39,7 +39,7 @@ sed -e s/AM_GNOME_GETTEXT/AM_GNU_GETTEXT/ configure.in > configure.in.tmp
 mv -f configure.in.tmp configure.in
 rm -f missing
 %{__gettextize}
-aclocal -I macros
+%{__aclocal} -I macros
 %{__autoconf}
 %{__automake}
 %configure
