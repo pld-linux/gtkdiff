@@ -6,7 +6,10 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Group(de):	X11/Applikationen
+Group(es):	X11/Aplicaciones
 Group(pl):	X11/Aplikacje
+Group(pt_BR):	X11/Aplicações
+Group(pt):	X11/Aplicações
 Source0:	http://www.ainet.or.jp/~inoue/software/gtkdiff/%{name}-%{version}.tar.gz
 Patch0:		%{name}-use_AM_GNU_GETTEXT.patch
 URL:		http://www.ainet.or.jp/~inoue/software/gtkdiff/index-e.html
@@ -26,6 +29,13 @@ are following:
 - It has two view modes, one-pane and two-panes.
 - Supports directory diff.
 - Easy navigation across differences.
+
+%description -l pl
+gtkdiff jest frontendem do programu diff u¿ywaj±cym GTK+ i GNOME.
+Niektóre jego cechy to:
+- dwa tryby ogl±dania - jedno- i dwupanelowy
+- obs³uga diff dla katalogów
+- ³atwa nawigacja pomiêdzy ró¿nicami.
 
 %prep
 %setup -q
