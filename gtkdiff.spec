@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://home.catv.ne.jp/pp/ginoue/software/gtkdiff/%{name}-%{version}.tar.gz
+# Source0-md5:	536979ae70650680518a0b79d14e9366
 URL:		http://home.catv.ne.jp/pp/ginoue/software/gtkdiff/index-e.html
 BuildRequires:	autoconf
 BuildRequires:	automake
