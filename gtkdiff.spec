@@ -2,7 +2,7 @@ Summary:	A diff front-end program using GTK+(GNOME)
 Summary(pl):	Nak³adka na program diff pod GTK+(GNOME)
 Name:		gtkdiff
 Version:	1.8.0
-Release:	4
+Release:	5
 License:	GPL
 Group:		X11/Applications
 Source0:	http://home.catv.ne.jp/pp/ginoue/software/gtkdiff/%{name}-%{version}.tar.gz
@@ -50,7 +50,7 @@ rm -f missing
 rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
-	Utilitiesdir=%{_applnkdir}/Utilities
+	Utilitiesdir=%{_desktopdir}
 
 install gtkdiffrc $RPM_BUILD_ROOT%{_datadir}/%{name}/
 
@@ -64,5 +64,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog NEWS README TODO
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/gtkdiff
-%{_applnkdir}/Utilities/gtkdiff.desktop
+%{_desktopdir}/gtkdiff.desktop
 %{_mandir}/man1/*
