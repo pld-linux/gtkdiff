@@ -2,11 +2,12 @@ Summary:	A diff front-end program using GTK+(GNOME)
 Summary(pl):	Nak³adka na program diff pod GTK+(GNOME)
 Name:		gtkdiff
 Version:	1.8.0
-Release:	3
+Release:	4
 License:	GPL
 Group:		X11/Applications
 Source0:	http://home.catv.ne.jp/pp/ginoue/software/gtkdiff/%{name}-%{version}.tar.gz
 # Source0-md5:	536979ae70650680518a0b79d14e9366
+Patch0:		%{name}-desktop.patch
 URL:		http://home.catv.ne.jp/pp/ginoue/software/gtkdiff/index-e.html
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -32,6 +33,7 @@ Niektóre jego cechy to:
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 sed -e s/AM_GNOME_GETTEXT/AM_GNU_GETTEXT/ configure.in > configure.in.tmp
