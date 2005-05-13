@@ -8,8 +8,9 @@ diff -urN gtkdiff-1.8.0.orig/gtkdiff.desktop gtkdiff-1.8.0/gtkdiff.desktop
  Name[ja]=gtkdiff
  Name[tr]=gtkdiff
  Comment=Graphical diff
- Comment[ja]=¥°¥é¥Õ¥£¥«¥ëdiff
+-Comment[ja]=¥°¥é¥Õ¥£¥«¥ëdiff
 -Comment[tr]=Gnome diff uygulamasý
++Comment[ja]=ã‚°ãƒ©ãƒ•ã‚£ã‚«ãƒ«diff
 +Comment[pl]=Graficzny diff dla GNOME
 +Comment[tr]=GNOME diff uygulamasý
  Exec=gtkdiff
