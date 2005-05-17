@@ -2,7 +2,7 @@ Summary:	A diff front-end program using GTK+(GNOME)
 Summary(pl):	Nak³adka na program diff pod GTK+(GNOME)
 Name:		gtkdiff
 Version:	1.8.0
-Release:	7
+Release:	8
 License:	GPL
 Group:		X11/Applications
 Source0:	http://home.catv.ne.jp/pp/ginoue/software/gtkdiff/%{name}-%{version}.tar.gz
