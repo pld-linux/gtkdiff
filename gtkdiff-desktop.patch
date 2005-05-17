@@ -12,7 +12,7 @@ diff -urN gtkdiff-1.8.0.orig/gtkdiff.desktop gtkdiff-1.8.0/gtkdiff.desktop
 -Comment[tr]=Gnome diff uygulamas�
 +Comment[ja]=グラフィカルdiff
 +Comment[pl]=Graficzny diff dla GNOME
-+Comment[tr]=GNOME diff uygulamas�
++Comment[tr]=GNOME diff uygulaması
  Exec=gtkdiff
  Icon=
 -Terminal=0
