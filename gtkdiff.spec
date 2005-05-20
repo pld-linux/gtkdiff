@@ -12,10 +12,9 @@ URL:		http://home.catv.ne.jp/pp/ginoue/software/gtkdiff/index-e.html
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
-BuildRequires:	gtk+-devel >= 1.2.0
 BuildRequires:	gnome-libs-devel >= 1.0.0
+BuildRequires:	gtk+-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 gtkdiff is a diff front-end program using GTK+(GNOME). Its features
@@ -38,7 +37,6 @@ Niektóre jego cechy to:
 %build
 sed -e s/AM_GNOME_GETTEXT/AM_GNU_GETTEXT/ configure.in > configure.in.tmp
 mv -f configure.in.tmp configure.in
-rm -f missing
 %{__gettextize}
 %{__aclocal} -I macros
 %{__autoconf}
@@ -48,6 +46,7 @@ rm -f missing
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
 	Utilitiesdir=%{_desktopdir}
