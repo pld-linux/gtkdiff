@@ -1,5 +1,5 @@
 Summary:	A diff front-end program using GTK+(GNOME)
-Summary(pl.UTF-8):   Nakładka na program diff pod GTK+(GNOME)
+Summary(pl.UTF-8):	Nakładka na program diff pod GTK+(GNOME)
 Name:		gtkdiff
 Version:	1.8.0
 Release:	8
