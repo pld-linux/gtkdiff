@@ -11,7 +11,7 @@ Patch0:		%{name}-desktop.patch
 URL:		http://home.catv.ne.jp/pp/ginoue/software/gtkdiff/index-e.html
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gnome-libs-devel >= 1.0.0
 BuildRequires:	gtk+-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
